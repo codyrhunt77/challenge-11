@@ -1,0 +1,11 @@
+const express = require('express');
+const apiRoutes = require('./apiRoutes');
+const routes = require('./routes');
+app.use(express.json());
+app.use('/api' , apiRoutes);
+app.use('/', routes );
+app.use(express.urlencoded({ extended: true}));
+app.use(express.static('public'));
+const app = express();
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => console.log (`Live on PORT: ${PORT}`));
