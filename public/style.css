@@ -1,0 +1,24 @@
+html {
+    line-height: normal;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: auto;
+}
+.note-textarea {
+    height: auto;
+}
+.note-title {
+    color: black;
+    width: auto;
+    font-size: large;
+    height: auto;
+}
+.list-container .card {
+    height: auto;
+    width: auto;
+    
+}
