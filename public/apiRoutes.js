@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const notepad = require('./notepad');
-router.get('../notes' , (req, res) => {
+router.get('/notes' , (req, res) => {
     notepad
     .getNotes()
     .then((notes) => {
